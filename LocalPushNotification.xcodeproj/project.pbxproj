@@ -15,6 +15,19 @@
 		98C1E4322D898DEF00339530 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 98C1E4312D898DEF00339530 /* Base */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		98C1E4482D8997C400339530 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		98C1E4222D898DEE00339530 /* LocalPushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalPushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C1E4252D898DEE00339530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +90,7 @@
 				98C1E41E2D898DEE00339530 /* Sources */,
 				98C1E41F2D898DEE00339530 /* Frameworks */,
 				98C1E4202D898DEE00339530 /* Resources */,
+				98C1E4482D8997C400339530 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
