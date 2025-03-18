@@ -66,6 +66,8 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    //MARK: Badge Count
         
     func resetBadgeCount() {
         UNUserNotificationCenter.current().setBadgeCount(0) { error in
